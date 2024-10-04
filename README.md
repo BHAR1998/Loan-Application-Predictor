@@ -26,4 +26,7 @@ We treat the missing values in all the features one by one.
 
 We can consider these methods to fill the missing values:
 
-For numerical variables: imputation using mean or median For categorical variables: imputation using mode There are very less missing values in Gender, Married, Dependents, Credit_History and Self_Employed features so we can fill them using the mode of the features. In the Loan_Amount_Term we will replace the missing values using the mode of this variable. In the LoanAmount variable, the null values are replaced using the median value. After outlier treatment and some feature engineering, we build three different models for prediction and calculated its accuracy. These come out as: -Logistic Regression: Mean Validation Accuracy 0.7800041228612657
+For numerical variables: imputation using mean or median For categorical variables: imputation using mode There are very less missing values in Gender, Married, Dependents, Credit_History and Self_Employed features so we can fill them using the mode of the features.
+In the Loan_Amount_Term we will replace the missing values using the mode of this variable. In the LoanAmount variable, the null values are replaced using the median value. After outlier treatment and some feature engineering, we build three different models for prediction and calculated its accuracy.
+
+These come out as: -Logistic Regression: Mean Validation Accuracy 0.7800041228612657
